@@ -105,7 +105,14 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ШтрихКод</Subsystem>
+			<Subsystem>Данные</Subsystem>
+			<Subsystem>Документ</Subsystem>
 			<CommonForm>ТестоваяФорма</CommonForm>
+			<Catalog>Материалы</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>Подразделения</Catalog>
+			<Document>УчетМатериалов</Document>
+			<Enum>ЕдиницыИзмерений</Enum>
 			<Report>ОтчетШтрихКод</Report>
 		</ChildObjects>
 	</Configuration>
