@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Склад" id="7">
+			<DataPath>Объект.Склад</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="СтрутктурноеПодразделение" id="10">
+			<DataPath>Объект.СтрутктурноеПодразделение</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СтрутктурноеПодразделениеКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СтрутктурноеПодразделениеРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Исполнитель" id="13">
+			<DataPath>Объект.Исполнитель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ИсполнительКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Table name="ПереченьМатериалов" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ПереченьМатериалов</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПереченьМатериаловКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="ПереченьМатериаловКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="ПереченьМатериаловРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="ПереченьМатериаловСтрокаПоиска" id="20">
+				<Source>
+					<lf:elementId>16</lf:elementId>
+					<lf:additionId>0</lf:additionId>
+				</Source>
+				<ContextMenu name="ПереченьМатериаловСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ПереченьМатериаловСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПереченьМатериаловСостояниеПросмотра" id="23">
+				<Source>
+					<lf:elementId>16</lf:elementId>
+					<lf:additionId>1</lf:additionId>
+				</Source>
+				<ContextMenu name="ПереченьМатериаловСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ПереченьМатериаловСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПереченьМатериаловУправлениеПоиском" id="26">
+				<Source>
+					<lf:elementId>16</lf:elementId>
+					<lf:additionId>2</lf:additionId>
+				</Source>
+				<ContextMenu name="ПереченьМатериаловУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ПереченьМатериаловУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПереченьМатериаловНомерСтроки" id="29">
+					<DataPath>Объект.ПереченьМатериалов.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПереченьМатериаловНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПереченьМатериаловНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="ПереченьМатериаловМатериал" id="32">
+					<DataPath>Объект.ПереченьМатериалов.Материал</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПереченьМатериаловМатериалКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ПереченьМатериаловМатериалРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ПереченьМатериаловМатериалПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПереченьМатериаловКоличество" id="35">
+					<DataPath>Объект.ПереченьМатериалов.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПереченьМатериаловКоличествоКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПереченьМатериаловКоличествоРасширеннаяПодсказка" id="37"/>
+					<Events>
+						<Event name="OnChange">ПереченьМатериаловКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПереченьМатериаловЦена" id="38">
+					<DataPath>Объект.ПереченьМатериалов.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПереченьМатериаловЦенаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ПереченьМатериаловЦенаРасширеннаяПодсказка" id="40"/>
+					<Events>
+						<Event name="OnChange">ПереченьМатериаловЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПереченьМатериаловСумма" id="41">
+					<DataPath>Объект.ПереченьМатериалов.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПереченьМатериаловСуммаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ПереченьМатериаловСуммаРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ОказаниеУслуги</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

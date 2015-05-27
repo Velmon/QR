@@ -104,16 +104,22 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>ШтрихКод</Subsystem>
-			<Subsystem>Данные</Subsystem>
-			<Subsystem>Документ</Subsystem>
+			<Subsystem>ОказаниеУслуг</Subsystem>
+			<Subsystem>УчетМатериалов</Subsystem>
+			<Subsystem>Бухгалтерия</Subsystem>
+			<CommonModule>РаботаСДокументами</CommonModule>
+			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonForm>ТестоваяФорма</CommonForm>
 			<Catalog>Материалы</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
-			<Document>УчетМатериалов</Document>
+			<Catalog>Склад</Catalog>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>ОказаниеУслуги</Document>
 			<Enum>ЕдиницыИзмерений</Enum>
 			<Report>ОтчетШтрихКод</Report>
+			<InformationRegister>Цены</InformationRegister>
+			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

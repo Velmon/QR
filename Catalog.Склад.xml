@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Catalog uuid="64ec3840-c400-470b-8a21-feda40178321">
+	<Catalog uuid="e80b3bf1-eb9d-45d3-b4f7-3570ab78a9f4">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Материалы" category="Object">
-				<xr:TypeId>60ffb7e0-3e37-40fa-91b2-308ecf334398</xr:TypeId>
-				<xr:ValueId>68426737-8635-4e10-828b-957e9dc98fdf</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Склад" category="Object">
+				<xr:TypeId>9ffd150c-3d34-4fbb-a1ef-b8092fd2a503</xr:TypeId>
+				<xr:ValueId>d60d1389-bcc3-40b2-aa8b-7519dc59f10e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Материалы" category="Ref">
-				<xr:TypeId>60b820da-dd48-4d2c-96f9-83a2855d9352</xr:TypeId>
-				<xr:ValueId>43e2d054-3783-4625-8009-edeeb34e6398</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Склад" category="Ref">
+				<xr:TypeId>9ac45e1f-1dc3-499f-be59-a3ae9a17f39e</xr:TypeId>
+				<xr:ValueId>c84e2800-f638-45e8-bcd1-c6a61785cfbf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Материалы" category="Selection">
-				<xr:TypeId>b0f8fcd4-9a80-4141-aa2a-f7e34ec64955</xr:TypeId>
-				<xr:ValueId>128da9d6-6fce-4340-89dd-ab77ad527e47</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Склад" category="Selection">
+				<xr:TypeId>0445434c-9b51-4206-b899-7fc8257c8aca</xr:TypeId>
+				<xr:ValueId>c72edef1-e97a-4a0d-9ecc-0c535cbe15d4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Материалы" category="List">
-				<xr:TypeId>9ac69be2-4628-449b-9637-ca4e251d18a4</xr:TypeId>
-				<xr:ValueId>dddf2eca-b02f-4e68-a5b8-c4a8c9ca428e</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Склад" category="List">
+				<xr:TypeId>8acbb83e-505c-4b20-a602-7b5a398828d4</xr:TypeId>
+				<xr:ValueId>df3fcbab-cef6-4836-885e-f2074f2dc13e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Материалы" category="Manager">
-				<xr:TypeId>3b6f6f9c-9e52-4040-9a7f-4250869402b4</xr:TypeId>
-				<xr:ValueId>ac656f3d-c496-4a5f-8a34-71088d8993df</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Склад" category="Manager">
+				<xr:TypeId>8e8e5038-c266-4fd0-9fd8-0b7868fee6de</xr:TypeId>
+				<xr:ValueId>90ef6a7e-ef56-4ccb-ae79-67945cfe5efc</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Материалы</Name>
+			<Name>Склад</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Материалы</v8:content>
+					<v8:content>Склад</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,15 +54,15 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Материалы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Материалы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Склад.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Склад.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Материалы.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
+			<DefaultListForm>Catalog.Склад.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -84,46 +84,7 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="c37066a7-add0-4330-95d8-fb7ad87c9462">
-				<Properties>
-					<Name>ЕдиницыИзмерений</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Единицы измерений</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:EnumRef.ЕдиницыИзмерений</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
