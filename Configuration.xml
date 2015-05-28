@@ -114,6 +114,10 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Склад</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>РасчетныеСчета</Catalog>
+			<Catalog>Договора</Catalog>
+			<Catalog>Банки</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>ОказаниеУслуги</Document>
 			<Enum>ЕдиницыИзмерений</Enum>

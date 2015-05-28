@@ -69,9 +69,6 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МатериалыМатериалКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="МатериалыМатериалРасширеннаяПодсказка" id="28"/>
-					<Events>
-						<Event name="OnChange">МатериалыМатериалПриИзменении</Event>
-					</Events>
 				</InputField>
 				<InputField name="МатериалыКоличество" id="29">
 					<DataPath>Объект.Материалы.Количество</DataPath>
@@ -96,6 +93,24 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МатериалыСуммаКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="МатериалыСуммаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="МатериалыСтавкаНДС" id="38">
+					<DataPath>Объект.Материалы.СтавкаНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыСтавкаНДСКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="МатериалыСтавкаНДСРасширеннаяПодсказка" id="40"/>
+					<Events>
+						<Event name="OnChange">МатериалыСтавкаНДСПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="МатериалыСуммаСНДС" id="41">
+					<DataPath>Объект.Материалы.СуммаСНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МатериалыСуммаСНДСКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="МатериалыСуммаСНДСРасширеннаяПодсказка" id="43"/>
+					<Events>
+						<Event name="OnChange">МатериалыСуммаСНДСПриИзменении</Event>
+					</Events>
 				</InputField>
 			</ChildItems>
 		</Table>

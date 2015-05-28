@@ -1,47 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Catalog uuid="64ec3840-c400-470b-8a21-feda40178321">
+	<Catalog uuid="78acc1cd-a807-40c1-b901-ac0226b0e68b">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Материалы" category="Object">
-				<xr:TypeId>60ffb7e0-3e37-40fa-91b2-308ecf334398</xr:TypeId>
-				<xr:ValueId>68426737-8635-4e10-828b-957e9dc98fdf</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.РасчетныеСчета" category="Object">
+				<xr:TypeId>fe8a9a80-5c01-4905-865e-daefc427c287</xr:TypeId>
+				<xr:ValueId>75e81024-8e41-4534-92b4-9228afedcb91</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Материалы" category="Ref">
-				<xr:TypeId>60b820da-dd48-4d2c-96f9-83a2855d9352</xr:TypeId>
-				<xr:ValueId>43e2d054-3783-4625-8009-edeeb34e6398</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.РасчетныеСчета" category="Ref">
+				<xr:TypeId>d70d45d2-998f-4c60-bde5-ed326def94a0</xr:TypeId>
+				<xr:ValueId>c4d9956a-00d8-4e9b-8858-1e7a9292b743</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Материалы" category="Selection">
-				<xr:TypeId>b0f8fcd4-9a80-4141-aa2a-f7e34ec64955</xr:TypeId>
-				<xr:ValueId>128da9d6-6fce-4340-89dd-ab77ad527e47</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.РасчетныеСчета" category="Selection">
+				<xr:TypeId>124d1bbf-aacb-4edf-a795-bc56b582c6d7</xr:TypeId>
+				<xr:ValueId>4c4c7856-3c63-4e6f-876e-14915eb8d2f8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Материалы" category="List">
-				<xr:TypeId>9ac69be2-4628-449b-9637-ca4e251d18a4</xr:TypeId>
-				<xr:ValueId>dddf2eca-b02f-4e68-a5b8-c4a8c9ca428e</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.РасчетныеСчета" category="List">
+				<xr:TypeId>c9cbcb0c-2409-4c22-8796-28d9fe2d5b48</xr:TypeId>
+				<xr:ValueId>2b9c908b-88e4-43fc-9b95-9d41a64a22b6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Материалы" category="Manager">
-				<xr:TypeId>3b6f6f9c-9e52-4040-9a7f-4250869402b4</xr:TypeId>
-				<xr:ValueId>ac656f3d-c496-4a5f-8a34-71088d8993df</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.РасчетныеСчета" category="Manager">
+				<xr:TypeId>3de5dde0-6616-4af5-9045-65cd2009ff31</xr:TypeId>
+				<xr:ValueId>ac1701ac-1a4e-43e0-a774-9a4c5770adf7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Материалы</Name>
+			<Name>РасчетныеСчета</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Материалы</v8:content>
+					<v8:content>Расчетные счета</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+			</Owners>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,13 +56,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Материалы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Материалы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.РасчетныеСчета.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.РасчетныеСчета.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Материалы.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -84,18 +86,61 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="c37066a7-add0-4330-95d8-fb7ad87c9462">
+			<Attribute uuid="da36ee69-af03-4223-94e8-d89e17e6cd8c">
 				<Properties>
-					<Name>ЕдиницыИзмерений</Name>
+					<Name>Филиал</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Единицы измерений</v8:content>
+							<v8:content>Филиал</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ЕдиницыИзмерений</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8f21724c-8f67-4e5f-9934-e71b231fa601">
+				<Properties>
+					<Name>Банк</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Банк</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Банки</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -123,7 +168,6 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

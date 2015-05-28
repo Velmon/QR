@@ -21,7 +21,7 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm/>
+			<DefaultForm>Report.ОтчетШтрихКод.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema/>
 			<DefaultSettingsForm/>
@@ -34,6 +34,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
+			<Form>ФормаОтчета</Form>
 			<Template>МакетШтрихКод</Template>
 			<Command uuid="79adba21-eb2f-4c51-9f34-ed89598f8902">
 				<Properties>
