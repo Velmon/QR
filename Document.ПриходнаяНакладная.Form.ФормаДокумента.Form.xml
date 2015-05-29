@@ -114,6 +114,11 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<LabelField name="МатериалыИтогСуммаСНДС" id="44">
+			<DataPath>Объект.Материалы.TotalСуммаСНДС</DataPath>
+			<ContextMenu name="МатериалыИтогСуммаСНДСКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="МатериалыИтогСуммаСНДСРасширеннаяПодсказка" id="46"/>
+		</LabelField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -125,6 +130,19 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.Материалы">
+					<Column name="Реквизит1" id="1">
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
 		</Attribute>
 	</Attributes>
 </Form>

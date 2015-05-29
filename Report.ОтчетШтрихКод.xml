@@ -41,7 +41,7 @@
 					<Name>Команда1</Name>
 					<Synonym/>
 					<Comment/>
-					<Group>NavigationPanelImportant</Group>
+					<Group>ActionsPanelReports</Group>
 					<CommandParameterType/>
 					<ParameterUseMode>Single</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>
