@@ -109,6 +109,7 @@
 			<Subsystem>Бухгалтерия</Subsystem>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
+			<CommonModule>РаботаСОтчетам</CommonModule>
 			<CommonForm>ТестоваяФорма</CommonForm>
 			<Catalog>Материалы</Catalog>
 			<Catalog>Сотрудники</Catalog>
