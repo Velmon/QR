@@ -23,7 +23,19 @@
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ОткрытьИнтерфейсСканирования</CommandName>
 			<Parameter xsi:nil="true"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация по штрих коду</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedTooltip name="ОткрытьИнтерфейсСканированияРасширеннаяПодсказка" id="15"/>
+		</Button>
+		<Button name="ОказаниеУслуг" id="16">
+			<Type>UsualButton</Type>
+			<CommandName>0</CommandName>
+			<Parameter xsi:nil="true"/>
+			<ExtendedTooltip name="ОказаниеУслугРасширеннаяПодсказка" id="17"/>
 		</Button>
 	</ChildItems>
 	<Attributes>
