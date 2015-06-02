@@ -110,7 +110,6 @@
 			<Subsystem>Бухгалтерия</Subsystem>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
-			<CommonModule>РаботаСОтчетам</CommonModule>
 			<ExchangePlan>Мобильные</ExchangePlan>
 			<XDTOPackage>WebОбмен</XDTOPackage>
 			<WebService>WebОбмен</WebService>
