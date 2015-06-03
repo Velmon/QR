@@ -11,6 +11,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="InformationRegister.Цены.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList">
@@ -19,16 +24,10 @@
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="Catalog.Подразделения.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="Catalog.Материалы.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
 		<Command name="Document.ОказаниеУслуги.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog.Склад.StandardCommand.OpenList">
+		<Command name="InformationRegister.Цены.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList">

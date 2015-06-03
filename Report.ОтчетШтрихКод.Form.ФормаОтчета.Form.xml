@@ -22,17 +22,17 @@
 			<ContextMenu name="МестоУстановкиКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="МестоУстановкиРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Примечание" id="7">
-			<DataPath>Отчет.Примечание</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ПримечаниеКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ПримечаниеРасширеннаяПодсказка" id="9"/>
-		</InputField>
-		<Button name="Команда1" id="10">
+		<Button name="Ok" id="10">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.Команда1</CommandName>
 			<Parameter xsi:nil="true"/>
-			<ExtendedTooltip name="Команда1РасширеннаяПодсказка" id="11"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="OkРасширеннаяПодсказка" id="11"/>
 		</Button>
 	</ChildItems>
 	<Attributes>

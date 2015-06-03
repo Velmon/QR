@@ -18,12 +18,10 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Материалы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.ЕдиницыИзмерений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склад</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОказаниеУслуги</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Обмен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ЕдиницыИзмерений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Цены</xr:Item>
 			</Content>
 		</Properties>

@@ -5,6 +5,24 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
+		<Button name="ОткрытьИнтерфейсСканирования" id="46">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОткрытьИнтерфейсСканирования</CommandName>
+			<Parameter xsi:nil="true"/>
+			<ExtendedTooltip name="ОткрытьИнтерфейсСканированияРасширеннаяПодсказка" id="47"/>
+		</Button>
+		<Button name="ЗаполнитьИзКода" id="44">
+			<Type>UsualButton</Type>
+			<CommandName>0</CommandName>
+			<Parameter xsi:nil="true"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить с кода</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ЗаполнитьИзКодаРасширеннаяПодсказка" id="45"/>
+		</Button>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -124,6 +142,23 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ОткрытьИнтерфейсСканирования" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть интерфейс сканирования</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть интерфейс сканирования</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьИнтерфейсСканирования</Action>
+		</Command>
+	</Commands>
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>

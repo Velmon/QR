@@ -107,7 +107,7 @@
 			<Language>Русский</Language>
 			<Subsystem>ОказаниеУслуг</Subsystem>
 			<Subsystem>УчетМатериалов</Subsystem>
-			<Subsystem>Бухгалтерия</Subsystem>
+			<Subsystem>Справочники</Subsystem>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<ExchangePlan>Мобильные</ExchangePlan>

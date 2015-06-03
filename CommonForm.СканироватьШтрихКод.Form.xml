@@ -31,12 +31,6 @@
 			</Title>
 			<ExtendedTooltip name="ОткрытьИнтерфейсСканированияРасширеннаяПодсказка" id="15"/>
 		</Button>
-		<Button name="ОказаниеУслуг" id="16">
-			<Type>UsualButton</Type>
-			<CommandName>0</CommandName>
-			<Parameter xsi:nil="true"/>
-			<ExtendedTooltip name="ОказаниеУслугРасширеннаяПодсказка" id="17"/>
-		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="ЗакрытьИнтерфейс" id="2">

@@ -16,10 +16,9 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходнаяНакладная</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склад</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Цены</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Обмен</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
