@@ -13,12 +13,16 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<CheckBoxField name="ЗакрытьИнтерфейс" id="11">
-			<DataPath>ЗакрытьИнтерфейс</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ЗакрытьИнтерфейсКонтекстноеМеню" id="12"/>
-			<ExtendedTooltip name="ЗакрытьИнтерфейсРасширеннаяПодсказка" id="13"/>
-		</CheckBoxField>
+		<InputField name="Материал" id="16">
+			<DataPath>Материал</DataPath>
+			<ContextMenu name="МатериалКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="МатериалРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="МестоУстановки" id="19">
+			<DataPath>МестоУстановки</DataPath>
+			<ContextMenu name="МестоУстановкиКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="МестоУстановкиРасширеннаяПодсказка" id="21"/>
+		</InputField>
 		<Button name="ОткрытьИнтерфейсСканирования" id="14">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ОткрытьИнтерфейсСканирования</CommandName>
@@ -44,6 +48,28 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="Материал" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Материал</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Материалы</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="МестоУстановки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Место установки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ОткрытьИнтерфейсСканирования" id="1">
@@ -60,6 +86,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьИнтерфейсСканирования</Action>
+		</Command>
+		<Command name="ПоискПоКоду" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск по коду</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск по коду</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоискПоКоду</Action>
 		</Command>
 	</Commands>
 </Form>

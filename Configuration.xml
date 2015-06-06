@@ -108,6 +108,7 @@
 			<Subsystem>ОказаниеУслуг</Subsystem>
 			<Subsystem>УчетМатериалов</Subsystem>
 			<Subsystem>Справочники</Subsystem>
+			<Subsystem>РаботаСQR</Subsystem>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<ExchangePlan>Мобильные</ExchangePlan>

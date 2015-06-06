@@ -4,24 +4,15 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<Button name="ОткрытьИнтерфейсСканирования" id="46">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ОткрытьИнтерфейсСканирования</CommandName>
 			<Parameter xsi:nil="true"/>
 			<ExtendedTooltip name="ОткрытьИнтерфейсСканированияРасширеннаяПодсказка" id="47"/>
-		</Button>
-		<Button name="ЗаполнитьИзКода" id="44">
-			<Type>UsualButton</Type>
-			<CommandName>0</CommandName>
-			<Parameter xsi:nil="true"/>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить с кода</v8:content>
-				</v8:item>
-			</Title>
-			<ExtendedTooltip name="ЗаполнитьИзКодаРасширеннаяПодсказка" id="45"/>
 		</Button>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -127,6 +118,18 @@
 					<ContextMenu name="ПереченьМатериаловСуммаКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="ПереченьМатериаловСуммаРасширеннаяПодсказка" id="43"/>
 				</InputField>
+				<InputField name="ПереченьМатериаловСтавкаНДС" id="68">
+					<DataPath>Объект.ПереченьМатериалов.СтавкаНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПереченьМатериаловСтавкаНДСКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ПереченьМатериаловСтавкаНДСРасширеннаяПодсказка" id="70"/>
+				</InputField>
+				<InputField name="ПереченьМатериаловСуммаСНДС" id="71">
+					<DataPath>Объект.ПереченьМатериалов.СуммаСНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПереченьМатериаловСуммаСНДСКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ПереченьМатериаловСуммаСНДСРасширеннаяПодсказка" id="73"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -141,13 +144,28 @@
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
 		</Attribute>
+		<Attribute name="Тест" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ОткрытьИнтерфейсСканирования" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть интерфейс сканирования</v8:content>
+					<v8:content>Получить данные из QR</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
